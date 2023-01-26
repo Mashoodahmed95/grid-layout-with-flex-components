@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+  }
+
+  /* my code added to readme feil */
+
+/* for creating boarders */
+  .emoji
+  
+  {
+    display: flex;
+    justify-content:flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #222;
+    }
+
+    /* arraning subheads */
+    
+    .emoji h2
+    {
+      margin: 0;
+      border-bottom: 2px solid #ccc;
+      order:2;
+  
+    }
+
+    /* call to action button */
+
+    
+    .emoji a
+    {
+      text-decoration: none;
+      background-color: #781BAA;
+      color: white;
+      border-radius: 8px;
+      order:4;
+      padding: 1rem;
+      
+      }
+
+      /* arranging all in colums and rows */
+
+.emojis
+   
+{
+    display: grid;
+    gap: 15px;
+    width: 850px;
+    grid-template-columns: 412px 412px;
+    grid-template-rows: 300px 1fr;
+    
+
+}
+
+/* arranging the para */
+
+   .emoji p
+    {
+        order:3;
+        flex-grow: 4;
+    }
+
+    /* icon sizeand place */
+
+  .icon
+  {
+    font-size: 4rem;
+    order: 1;
+    align-self: center;
+  }
+
